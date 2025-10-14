@@ -1,0 +1,48 @@
+# Made with love
+#
+# This is the configuration file for the labeler action
+# for more example in setting this file or informations about
+# the labeler action, see:
+# https://github.com/actions/labeler
+#
+# If you want to use it in your project, you will simply need:
+# 1 - commit this config file to your repository into the '.github' folder.
+# 2 - commit the 'labeler.yml' action file into the '.github/workflows' folder.
+#
+# You will probably need to modify the labels, or their targets.
+#
+
+# Add 'Github' label to any file changes within the '.github' dir
+Github:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**'
+
+# Add 'Automation' label to any file changes within the 'workflows' dir
+Automation:
+  - changed-files:
+      - any-glob-to-any-file: '.github/workflows/**'
+
+# Add 'Core' label to any file changes within the 'java' dir
+Core:
+  - changed-files:
+      - any-glob-to-any-file: 'app/src/main/java/**'
+
+# Add 'Store file' label to any change within the 'play' dir
+Store file:
+  - changed-files:
+      - any-glob-to-any-file: 'app/src/main/play/**'
+
+# Add 'assets' label to any change within the 'assets' or 'res' dirs
+Assets:
+  - changed-files:
+      - any-glob-to-any-file: [ 'app/src/main/assets/**', 'app/src/main/res/**' ]
+
+# Add 'Gradle wrapper' label to any change within the 'gradle' dir
+Gradle wrapper:
+  - changed-files:
+      - any-glob-to-any-file: 'gradle/**'
+
+# Add 'Translation` label to any change to strings.xml files other than english
+Translation:
+  - changed-files:
+      - all-globs-to-any-file: [ 'app/src/**/strings.xml', '!app/src/main/res/values/strings.xml' ]
