@@ -17,6 +17,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/urlHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            tools:text="verify-login.com" />
+
+        <!-- petite ligne séparatrice (optionnel) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000" />
+
         <requestFocus
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

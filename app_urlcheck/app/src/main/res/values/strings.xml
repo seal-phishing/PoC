@@ -455,4 +455,21 @@ This is an advanced version of the 'Queries Remover' module."</string>
     <string name="mChg_current">Current version: %s</string>
     <string name="mChg_view">View changes</string>
 
+    <!-- Link analysis module -->
+    <string name="mLinkRisk_name">Risk analysis (OFCS/GSB/URLhaus/ML)</string>
+    <string name="mLinkRisk_desc">Server-side analysis; configure the endpoint if needed (%1$s).</string>
+    <string name="mLinkRisk_endpoint_hint">e.g. http://10.0.2.2:8001/check_url</string>
+
+    <string name="mLinkRisk_check">Analyze link</string>
+    <string name="mLinkRisk_checking">Analyzing…</string>
+    <string name="mLinkRisk_unavailable">Analysis unavailable</string>
+    <string name="mLinkRisk_error">Error: %1$s</string>
+
+    <string name="mLinkRisk_detected">Phishing detected (source: %1$s)</string>
+    <string name="mLinkRisk_risk_high">High risk (source: %1$s)</string>
+    <string name="mLinkRisk_risk_medium">Medium risk (source: %1$s)</string>
+    <string name="mLinkRisk_risk_low">Low risk (source: %1$s)</string>
+
+    <string name="mLinkRisk_auto">Analyze automatically</string>
+
 </resources>

@@ -45,6 +45,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import android.net.Uri;
+import java.net.IDN;
+
+
 /** The main dialog, when opening a url */
 public class MainDialog extends Activity {
 
@@ -72,7 +76,27 @@ public class MainDialog extends Activity {
     /** Currently in the process of updating. */
     private int updating = 0;
 
+    private TextView headerUrl;        // le texte affiché en haut
+    private String fullUrlForActions;  // l'URL complète pour copier/ouvrir
+
+
     // ------------------- module functions -------------------
+
+    /** Affiche seulement le domaine en haut, conserve l’URL complète pour les actions */
+    private void renderHeader(String full) {
+        fullUrlForActions = full;
+
+        String host = null;
+        try {
+            host = Uri.parse(full).getHost();
+        } catch (Exception ignore) { /* keep null */ }
+
+        if (host == null || host.isEmpty()) host = full; // fallback
+        try { host = IDN.toUnicode(host); } catch (Exception ignore) { /* punycode safe */ }
+
+        if (headerUrl != null) headerUrl.setText(host);
+    }
+
 
     /** Something wants to set a new url. */
     public void onNewUrl(UrlData newUrlData) {
@@ -184,6 +208,8 @@ public class MainDialog extends Activity {
             setResult(RESULT_OK, new Intent().putExtra(Intent.EXTRA_PROCESS_TEXT, urlData.url));
         }
 
+        renderHeader(urlData.url);
+
         // end, reset
         updating = 0;
     }
@@ -217,6 +243,7 @@ public class MainDialog extends Activity {
         LocaleUtils.setLocale(this);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.dialog_main);
+        headerUrl = findViewById(R.id.urlHost);
         setFinishOnTouchOutside(true);
 
         // mark as seen if required

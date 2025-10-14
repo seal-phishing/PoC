@@ -9,6 +9,7 @@ import com.trianguloy.urlchecker.modules.list.DrawerModule;
 import com.trianguloy.urlchecker.modules.list.FlagsModule;
 import com.trianguloy.urlchecker.modules.list.HistoryModule;
 import com.trianguloy.urlchecker.modules.list.HostsModule;
+import com.trianguloy.urlchecker.modules.list.LinkRiskModule;
 import com.trianguloy.urlchecker.modules.list.LogModule;
 import com.trianguloy.urlchecker.modules.list.OpenModule;
 import com.trianguloy.urlchecker.modules.list.PatternModule;
@@ -40,6 +41,7 @@ public class ModuleManager {
         modules.add(new HistoryModule());
         modules.add(new StatusModule());
         modules.add(new UnshortenModule());
+        modules.add(new LinkRiskModule());
         modules.add(new VirusTotalModule());
         modules.add(new ClearUrlModule());
         modules.add(new RemoveQueriesModule());
