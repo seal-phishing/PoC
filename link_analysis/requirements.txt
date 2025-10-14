@@ -1,0 +1,10 @@
+joblib
+pandas
+scikit-learn
+pydantic
+fastapi
+uvicorn
+requests
+python-dotenv
+tldextract
+python-whois
