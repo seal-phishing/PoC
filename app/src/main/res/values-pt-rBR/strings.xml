@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_tutorialSettings">Repetir tutorial</string>
+    <string name="btn_tutorialEnd">Finalizar tutorial</string>
+    <string name="link_source">Código-fonte</string>
+    <string name="link_changelog">Novidades</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="canceled">Cancelado</string>
+    <string name="next">Próximo</string>
+    <string name="json_editor">Editor avançado</string>
+    <string name="defaultOff">Desabilitado por padrão</string>
+    <string name="mClear_clear">Aplicar</string>
+    <string name="mLog_empty">Sem dados</string>
+    <string name="btn_tutorialSkip">Pular tutorial</string>
+    <string name="a_modules">Módulos</string>
+    <string name="close">Fechar</string>
+    <string name="mOpen_share">Compartilhar</string>
+    <string name="a_about">Sobre</string>
+    <string name="a_settings">Configurações</string>
+    <string name="link_privacy">Política de privacidade</string>
+    <string name="locale">Português Brasileiro</string>
+    <string name="txt_about">Aplicativo criado por %1$s.
+\n
+\nContribuições: %2$s.
+\nTraduções: %3$s.</string>
+    <string name="desc_down">Mover para baixo</string>
+    <string name="none">Nenhum</string>
+    <string name="share">Compartilhar</string>
+    <string name="deviceDefault">Padrão do dispositivo</string>
+    <string name="mPttrn_fix">Aplicar</string>
+    <string name="mStatus_checking">Verificando…</string>
+    <string name="desc_enable">Habilitar/desabilitar módulo</string>
+    <string name="mClear_autoUpdate">Atualizar periodicamente</string>
+    <string name="mClear_lastUpdate">Última atualização:</string>
+    <string name="menu_resetOrder">Redefinir ordem</string>
+    <string name="btn_configureBrowser">Navegador padrão</string>
+    <string name="btn_setBrowser">Definir como navegador padrão</string>
+    <string name="save">Salvar</string>
+    <string name="back">Voltar</string>
+    <string name="alwaysOn">Sempre ativado</string>
+    <string name="desc_decorations">Exibir/ocultar título</string>
+    <string name="desc_up">Mover para cima</string>
+    <string name="reset">Redefinir</string>
+    <string name="clear">Limpar</string>
+    <string name="invalid">Inválido</string>
+    <string name="auto">Automático</string>
+    <string name="mHist_name">Histórico</string>
+    <string name="mLog_name">Log</string>
+    <string name="alwaysOff">Sempre desativado</string>
+    <string name="mOpen_with">Abrir com %s</string>
+    <string name="mOpen_open">Abrir</string>
+    <string name="mStatus_check">Verificar status</string>
+    <string name="mStatus_recheck">Verificar</string>
+    <string name="mOpen_clipboard">URL copiada para área de transferência</string>
+    <string name="mOpen_noapps">Sem aplicativos</string>
+    <string name="mStatus_redir">Redirecionar para %s</string>
+    <string name="mVT_cancel">Cancelar</string>
+    <string name="mInput_name">Texto de entrada</string>
+    <string name="mVT_scanning">Escaneando…</string>
+    <string name="mVT_scan">Escanear</string>
+    <string name="mClear_updated">Catálogo atualizado</string>
+    <string name="mLog_view">Visualizar log</string>
+    <string name="mClear_updateNow">Atualizar agora</string>
+    <string name="mClear_lastCheck">Última verificação:</string>
+    <string name="toast_cantEnable">Não foi possível habilitar o módulo: %s</string>
+    <string name="txt_theme">Tema:</string>
+    <string name="spin_darkTheme">Escuro</string>
+    <string name="spin_lightTheme">Claro</string>
+    <string name="toast_noApp">Não foi possível abrir o aplicativo</string>
+    <string name="toast_noBrowser">Não foi possível abrir o navegador</string>
+    <string name="mOpen_name">Abrir e compartilhar</string>
+    <string name="defaultOn">Habilitado por padrão</string>
+    <string name="mVT_apiKey">Chave de API</string>
+    <string name="btn_androidSettings">Configurações do aplicativo</string>
+    <string name="txt_locale">Localização:</string>
+    <string name="btn_linksSettings">Abrir links suportados</string>
+    <string name="txt_sample">Clique no link abaixo para testá-lo:</string>
+    <string name="mStatus_name">Códigos de status</string>
+    <string name="mPttrn_fixed">Aplicado - %s</string>
+    <string name="mVT_error">Não foi possível conectar-se ao VirusTotal. Verifique se a chave de API é válida ou tente novamente mais tarde.</string>
+    <string name="mUnshort_error">Erro de servidor: %s</string>
+    <string name="mUnshort_checking">Verificando…</string>
+    <string name="mUnshort_internal">Erro interno (%s)</string>
+    <string name="translators">Murilogs1910</string>
+    <string name="txt_info">Esse aplicativo age como intermediário ao abrir links. Um diálogo com algumas informações sobre o link são apresentadas ao escolher esse app para abrir um link. Pressione o botão módulos abaixo para checar e configurar todos os módulos disponíveis.</string>
+    <string name="link_blog">Blog do %s</string>
+    <string name="menu_toggleDecorations">Alternar todos os títulos</string>
+    <string name="txt_openLinks">Abra os links neste aplicativo: Ao longo dos anos, o Android mudou a forma de configurar, variando entre as diferentes versões. Encontre abaixo todas as configurações disponíveis para o seu dispositivo. Se os links não estiverem sendo abertos neste aplicativo, tente todas elas.</string>
+    <string name="toast_defaultSet">O aplicativo agora é o navegador padrão</string>
+    <string name="txt_tutorial1">Obrigado por baixar o app! \n \nEste é o tutorial, se você quiser você pode pulá-lo com o botão abaixo. Você sempre pode voltar para esse tutorial através das configurações.</string>
+    <string name="txt_tutorial2">O aplicativo age como intermediário ao abrir links. Assim que um link é aberto com o aplicativo, você pode interagir com ele por meio dos módulos. Depois disso, você pode abrir o link (no aplicativo desejado), compartilhá-lo, ou copiá-lo para a área de transferência.</string>
+    <string name="txt_conf">Aqui estão todos os módulos disponíveis, onde você pode checar suas descrições e configurações. Você também pode reordenar, mudar a visibilidade e ativar/desativar eles.</string>
+    <string name="mOpen_incognito">Modo anônimo:</string>
+    <string name="mOpen_incognitoDesc">Ativar/desativar modo anônimo (apenas Firefox)</string>
+    <string name="txt_tutorial3">Selecione o aplicativo como navegador padrão para interceptar os links abertos.
+\n(Não é necessário se os links são redirecionados usando a função de compartilhar.)</string>
+    <string name="mPttrn_userContent">Lista de outros padrões úteis criados por usuários: %s</string>
+    <string name="mOpen_perDomain">Ordenar diferentes domínios independentemente</string>
+    <string name="mOpen_tabsDesc">Ativar/desativar abas customizadas</string>
+    <string name="mLog_edit">Editar log</string>
+    <string name="mHosts_fakenews">Notícias Falsas</string>
+    <string name="shortcut_checkClipboard">Verificar link da área de transferência</string>
+    <string name="mPttrn_name">Verificador de padrões</string>
+    <string name="mOpen_ctabs">Abas customizadas:</string>
+    <string name="mHosts_malware">Adware/Malware</string>
+    <string name="mHosts_adult">Conteúdo Adulto</string>
+    <string name="mHosts_gambling">Apostas</string>
+    <string name="mOpen_mergeCopy">Mesclar botões de Copiar e Compartilhar (segurar para copiar)</string>
+    <string name="mOpen_copyUrl">Copiar</string>
+    <string name="mPttrn_noSchemeHttp">Esquema HTTP ausente.</string>
+    <string name="mPttrn_ascii">Aviso! Caracteres não-ASCII encontrados.</string>
+    <string name="mPttrn_http">Link HTTP. Considere utilizar HTTPS.</string>
+    <string name="mVT_goodUrl">Nenhum dos %1$d mecanismos detectou a URL (na data %2$s)</string>
+    <string name="mVT_warningUrl">Aviso, %1$d/%2$d mecanismos detectaram a URL (na data %3$s)</string>
+    <string name="mD_name">Módulo de Depuração/Marcador</string>
+    <string name="mD_ctabs">Mostrar mensagens de depuração do serviço de abas customizadas</string>
+    <string name="mD_desc">Caso você reordene os módulos, os novos adicionados em atualizações futuras serão colocados acima desse.
+\n
+\nSe você habilitar isso, ele exibirá alguns dados de depuração interno (como a uri da intenção original), útil para desenvolvedores.
+\n
+\nVocê pode segurar para selecionar o texto.</string>
+    <string name="mClear_name">Limpador de URL</string>
+    <string name="mClear_desc">Esse módulo remove rastreamento, referência e outros parâmetros inúteis da URL. Ele também permite redirecionamentos comuns de URL offline.</string>
+    <string name="mClear_matches">Corresponde %s</string>
+    <string name="mClear_tm">Catálogo embutido copiado do ClearURLs: %s</string>
+    <string name="mClear_blocked">- BLOQUEADO!</string>
+    <string name="mClear_exception">- ignorado devido a exceção %s</string>
+    <string name="mPttrn_noSchemeHttps">Esquema HTTPS ausente.</string>
+    <string name="mPttrn_ok">Não há padrões correspondentes.</string>
+    <string name="mStatus_autoRedirect">Substituir as URLs de redirecionamento automaticamente</string>
+    <string name="mVT_name">Scanner de URL</string>
+    <string name="mInput_desc">Mostra a URL atual, que pode ser editada manualmente.</string>
+    <string name="mVT_tm">VirusTotal™ é uma marca registrada da Google, Inc.</string>
+    <string name="mHist_desc">Quando a URL é editada, seja manualmente ou por outros módulos, esse permite que você veja e reverta as mudanças.</string>
+    <string name="mClear_referral">- referência encontrada</string>
+    <string name="mClear_forcedRedirection">- redirecionamento forçado encontrado</string>
+    <string name="mClear_cleared">- Limpo</string>
+    <string name="mClear_rule">- parâmetro inútil encontrado</string>
+    <string name="mClear_rawRule">- conteúdo inútil encontrado</string>
+    <string name="mClear_redirection">- redirecionamento encontrado</string>
+    <string name="mClear_auto">Aplicar automaticamente</string>
+    <string name="mClear_noRules">Sem regras correspondentes</string>
+    <string name="mClear_toggleReferral">Permitir parâmetros de referência de marketing (não serão limpados)</string>
+    <string name="txt_tutorial4">Os módulos são a forma com que o app interage com as URLs.
+\nCada um dos módulos tem uma função específica. Geralmente para apresentar informação sobre a URL, or permitir sua modificação.
+\nLeia sobre elas e as configure como necessário.
+\n
+\nImportante: Todas as ações são manuais por padrão. O app não modificará nada nem se conectará a Internet a não ser que você permita especificamente, mas algumas ações podem ser aplicadas automaticamente, se desejado.
+\n
+\nAbra a lista de módulos a partir da tela principal ou tocando no botão abaixo.</string>
+    <string name="mPttrn_desc">Este módulo verifica a URL com padrões de expressões regulares que alertam, sugerem ou aplicam substituições. Você pode modificar ou criar seus próprios padrões, ou mesmo usar padrões criados por usuários.
+\nOs padrões embutidos incluem:
+\n- Alerta quando contém caracteres não-ASCII, como letras gregas. Isso pode ser usado para phishing: googĺe.com vs google.com
+\n- Sugere substituir ‘http’ por ‘https’
+\n- Sugere substituir Youtube, Reddit ou Twitter por alternativas que respeitam a privacidade [desativadas por padrão]</string>
+    <string name="mVT_desc">Quando este módulo está habilitado, você pode verificar a URL usando o VirusTotal e conferir o relatório. É necessário uma chave da API do VirusTotal para que isso funcione, você pode obter uma registrando-se para uma conta gratuita aqui: %s .</string>
+    <string name="mVT_badUrl">Cuidado! %1$d/%2$d mecanismos detectaram a URL (na data %3$s)</string>
+    <string name="mClear_toggleVerbose">Ativar informações detalhadas para o processo de correspondência</string>
+    <string name="txt_tutorial5">Isso é tudo. Aqui vão algumas dicas que podem ser úteis:
+\n
+\nQuando um aplicativo não fornece uma maneira de abrir ou compartilhar uma URL, mas oferece uma maneira de fazer o outro, você pode resolver o problema usando este aplicativo. Você também pode copiar a URL para a área de transferência pressionando o botão de compartilhar por um longo tempo.
+\n
+\nExistem algumas URLs cujo único propósito é redirecioná-lo para outra URL. Se a URL final puder ser aberta em um aplicativo, você pode evitar abri-la em um navegador.
+\n
+\nEspero que você ache o aplicativo útil! E não hesite em sugerir funções, relatar bugs ou até propor mudanças. Encontre todos os links relevantes na tela “Sobre”.</string>
+    <string name="mRemove_found">%d parâmetros encontrados</string>
+    <string name="mRemove_all">Remover todos</string>
+    <string name="mRemove_found1">1 parâmetro encontrado</string>
+    <string name="mOpen_closeOpen">Fechar diálogo após abrir</string>
+    <string name="mOpen_closeShare">Fechar diálogo após compartilhar</string>
+    <string name="mStatus_unknownCode">%d: Código de status desconhecido</string>
+    <string name="mRemove_noQueries">Sem parâmetros</string>
+    <string name="mRemove_one">Remover %s</string>
+    <string name="mRemove_empty">Remover vazio</string>
+    <string name="mClear_sourceDesc">URL do catálogo de arquivos JSON com as regras:</string>
+    <string name="mClear_urlHint">URL do catálogo</string>
+    <string name="mClear_hashDesc">URL do arquivo hash do catálogo. Se omitido, o download não será verificado para ver se foi adulterado/modificado (não recomendado)</string>
+    <string name="mClear_hashError">Não foi possível obter o hash, certifique-se que a URL é válida e que você tem uma conexão ativa</string>
+    <string name="mRemove_name">Removedor de parâmetros</string>
+    <string name="mUnshort_unshort">Desencurtar</string>
+    <string name="mUnshort_ok">Desencurtado</string>
+    <string name="mUnshort_pending">pendente: %1$d/%2$d</string>
+    <string name="mParts_name">Partes da URI</string>
+    <string name="mClear_updater">Atualizador</string>
+    <string name="mClear_hashHint">Sem verificação de hash</string>
+    <string name="mClear_upToDate">Catálogo está atualizado</string>
+    <string name="mClear_urlError">Não foi possível obter as regras, certifique-se que a URL é válida e que você tem uma conexão ativa</string>
+    <string name="mClear_hashMismatch">Hashes não correspondem, o arquivo pode ter sido adulterado. Se quiser pular a verificação, remova a URL de hash</string>
+    <string name="mLog_desc">Esse módulo registra todas as URLs verificadas. Você pode visualizar, limpar ou editar a log completa aqui, nenhuma indicação visual aparecerá no diálogo principal. Para desabilitar a log, basta desabilitar o módulo.</string>
+    <string name="mHosts_buildInit">Inicializando</string>
+    <string name="mHosts_buildClear">Limpando…</string>
+    <string name="mHosts_buildSave">Salvando…</string>
+    <string name="mUnshort_name">Desencurtador</string>
+    <string name="mClear_error">Não foi possível verificar a regra</string>
+    <string name="mOpen_closeCopy">Fechar diálogo após copiar</string>
+    <string name="mRemove_desc">[OBSOLETO] Com este módulo você pode remover parâmetros da URL.
+\nPressione o botão para remover todos ou pressione a seta para remover um de cada vez.
+\nObrigado a PabloOQ pela ideia e implementação original!
+\n
+\nEste módulo foi descontinuado em favor do módulo \'Partes da URI\'</string>
+    <string name="mHosts_name">Rotulador de hosts</string>
+    <string name="mHosts_buildProgress">Construindo catálogo</string>
+    <string name="mUnshort_notFound">Nenhum redirecionamento encontrado</string>
+    <string name="mFlags_name">Editor de marcadores</string>
+    <string name="mParts_empty">(vazio)</string>
+    <string name="mParts_copy">Parte copiada para área de transferência</string>
+    <string name="mStatus_desc">Ao pressionar o botão de verificação, uma solicitação de rede será feita para consultar e exibir o código de status do site. Se o resultado for um redirecionamento, você poderá visualizar a URL de destino. O conteúdo da URL é obtido (GET), mas não avaliado, portanto redirecionamentos baseados em JavaScript não serão detectados.</string>
+    <string name="mClear_editor">Regras do catálogo: Devem seguir o formato de %s.
+\nObserve que qualquer modificação no objeto principal \'providers\' será substituída se o catálogo for atualizado, automaticamente ou manualmente. Portanto, crie suas regras pessoais eu um outro objeto (qualquer nome).</string>
+    <string name="mHosts_info">Host:</string>
+    <string name="mHosts_buildTitle">Construir catálogo de hosts</string>
+    <string name="mFlag_editFlags">Editar valor padrão de marcadores</string>
+    <string name="mHosts_build">Construir</string>
+    <string name="mHosts_noLabel">sem rótulo</string>
+    <string name="mHosts_built">Catálogo construido: %d hosts</string>
+    <string name="mUnshort_desc">Este módulo desencurta links enviando-os para %s, que os avalia em seus servidores e salva o redirecionamento para futuras petições. Evite desencurtar links com dados privados ou confidenciais.
+\nA API é limitada a 10 solicitações por hora para novas verificações. A resposta do módulo mostrará quantas petições você tem pendentes.</string>
+    <string name="mOpen_desc">Contém os seguintes botões (da esquerda para a direita):
+\n- Abas customizadas: Alterne para ativar/desativar as abas customizadas. Quando ativado, o navegador deve abrir em um modo \'lite\'.
+\n- Modo anônimo: Apenas para Firefox. Se ativado, o navegador deve abrir no modo anônimo.
+\n- Botão Abrir: Pressione o nome do aplicativo para abrir o link nele. Se um link puder ser aberto com vários aplicativos, uma seta será exibida para seleção.
+\n- Botão Copiar: Pressione o botão para copiar o link para a área de transferência.
+\n- Botão Compartilhar: Pressione o botão para compartilhar o link.</string>
+    <string name="mHosts_editor">Configuração de hosts. Formato: Lista de objetos onde a chave é o rótulo dos hosts e o conteúdo inclui os seguintes valores opcionais:
+\n- file: Link de um arquivo de hosts remoto para download. Todos os hosts válidos presentes serão adicionados.
+\n- hosts: Lista de hosts brutos (strings) a serem adicionados.
+\n- color: A cor do rótulo. Uma string de cores do Android (#AARRGGBB, #RRGGBB ou um nome de cor válido). O padrão é um vermelho de \'perigo\'.
+\n- replace: Se falso, os hosts existentes não serão substituídos. Nota que os objetos são avaliados de cima para baixo. Verdadeiro por padrão.
+\n- enabled: Se falso, todo o objeto será ignorado. Verdadeiro por padrão.</string>
+    <string name="mPttrn_editor">Aqui você pode editar ou adicionar novos padrões. Formato: \n- \'encode\': booleano: defina como true para codificar a URL antes de checar o regex. \n- \'regex\': string: regex java válido que a URL deve corresponder; caso contrário, o padrão é ignorado. \n- \'excludeRegex\': string: (opcional) um regex java válido que a URL não deve corresponder; caso contrário, o padrão é ignorado. \n- \'replacement\': string|lista: se fornecido, o botão \'corrigir\' executará \'url=url.replaceAll(regex,replacement)\'. Em uma lista, um elemento aleatório é escolhido. \n- \'decode\': booleano: defina como true para decodificar a URL substítuida. \n- \'automatic\': booleano: defina como true para aplicar automaticamente o padrão. \n- \'enabled\': booleano: defina como false para desativar o padrão. \nNota: se você editar os padrões, novos padrões integrados de atualizações não serão adicionados automaticamente (pode restaurá-los com a opção de redefinição).</string>
+    <string name="mParts_desc">Este módulo mostra todas as partes da url decodificadas: esquema, autoridade, caminhos, parâmetros e fragmento.
+\nAo clicar em uma parte, ela será definida como a nova URL, útil, por exemplo, se uma das consultas ou caminhos for uma URL codificada de redirecionamento.
+\nAo segurar uma parte, ela será copiada para a área de transferência.
+\nVocê também pode clicar no botão \'X\' para remover alguns deles.
+\nEsta é uma versão avançada do módulo \'Queries Remover\'.</string>
+    <string name="mStatus_ioerror">Erro de rede ao tentar verificar a URL: %s</string>
+    <string name="mUnshort_tm">API gratuita de Unshorten.me</string>
+    <string name="mHosts_buildDownload">Baixando \'%1$s\' hosts de %2$s…</string>
+    <string name="mStatus_error">Erro interno ao tentar verificar a URL: %s</string>
+    <string name="mClear_restore">Restaurar os caminhos do ClearURLs</string>
+    <string name="hidden">Oculto</string>
+    <string name="mOpen_noReferrer">Oculte o aplicativo de origem (referenciador)</string>
+    <string name="mPttrn_regexfix">Corrigir grupos regex opcionais (desative-os se o regex não estiver funcionando corretamente)</string>
+    <string name="mPttrn_wrongSchemaHttp">Esquema de capitalização http inválido.</string>
+    <string name="mPttrn_wrongSchemaHttps">Capitalização inválida do esquema https.</string>
+    <string name="dismiss">Descartar</string>
+    <string name="btn_backupRestore">Backup / Restaurar</string>
+    <string name="bck_mn_advanced">Mostrar opções avançadas</string>
+    <string name="btn_backup">Backup</string>
+    <string name="btn_restore">Restaurar</string>
+    <string name="btn_delete">Deletar</string>
+    <string name="bkp_description">Escolha quais elementos fazer backup/restaurar.\nAo restaurar, se o backup foi criado sem ele, os existentes serão mantidos.</string>
+    <string name="txt_animation">Ativar animações</string>
+    <string name="bck_newer">Cancelado. O backup foi criado com uma versão mais recente do aplicativo.</string>
+    <string name="bck_restoreTitle">Restaurar backup</string>
+    <string name="bck_restoreConfirm">Substituir elementos</string>
+    <string name="a_automations">Automações</string>
+    <string name="auto_desc">Com as automações, você pode executar ações de módulo com base em gatilhos. Você pode configurar as automações aqui ou desabilitar todas elas juntas usando o toggle abaixo.</string>
+    <string name="bkp_data_prefs">Preferências: Dados salvos como preferências.</string>
+    <string name="bkp_data">Dados: Dados de aplicativo padrão. Coisas como módulos habilitados, configurações json, etc. Não incluirá segredos nem cache.</string>
+    <string name="bkp_data_files">Arquivos: Dados salvos como arquivos.</string>
+    <string name="bkp_secrets">Segredos: Dados considerados \'secretos\', como a chave da API do VirusTotal ou o log.</string>
+    <string name="bjp_cache">Cache: Dados que podem ser facilmente baixados/gerados, como o banco de dados de hosts. Habilitar esta opção pode aumentar o tamanho do backup consideravelmente.</string>
+    <string name="bck_restoreDelete">Exclua elementos antes de restaurar. Observe que as preferências e alguns arquivos com valores padrão podem não existir, então desabilitar esta opção mesclará os elementos existentes com os de backup de maneiras inesperadas. Desabilite se você sabe o que está fazendo.</string>
+    <string name="bck_deleteTitle">Excluir elementos</string>
+    <string name="bck_deleteMessage">AVISO! Isso excluirá todos os elementos selecionados.\nVocê realmente quer continuar?</string>
+    <string name="bck_deleteConfirm">Excluir elementos</string>
+    <string name="bck_restoreError">Não é possível restaurar o backup. É um arquivo válido?</string>
+    <string name="small">Pequeno</string>
+    <string name="normal">Normal</string>
+    <string name="big">Grande</string>
+    <string name="bck_deleteError">Não é possível excluir elementos</string>
+    <string name="bck_ignoreNewer">Permitir backups criados a partir de versões mais recentes do aplicativo.</string>
+    <string name="bck_chooseFile">Escolha o arquivo de backup</string>
+    <string name="bck_backupOk">Backup criado</string>
+    <string name="bck_backupError">Não é possível criar o backup, tente escolher um local diferente para o arquivo.</string>
+    <string name="bck_restoreMessage">AVISO! Isso substituirá os elementos selecionados do backup.\nVocê realmente quer continuar?</string>
+    <string name="bck_restoreOk">Backup restaurado</string>
+    <string name="bck_deleteOk">Elementos deletados</string>
+    <string name="noLinks">Nenhum link detectado</string>
+    <string name="auto_enabled">Habilitar recurso de automações</string>
+    <string name="auto_error_toast">Mostrar toast se a automação falhar</string>
+    <string name="auto_notFound">Nenhuma automação com a chave \'%s\' está disponível. Certifique-se de que ela seja válida e que o módulo necessário esteja ativo.</string>
+</resources>
