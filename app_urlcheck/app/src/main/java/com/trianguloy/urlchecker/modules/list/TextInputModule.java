@@ -1,6 +1,5 @@
 package com.trianguloy.urlchecker.modules.list;
 
-import static android.graphics.Typeface.BOLD;
 import static android.graphics.Typeface.ITALIC;
 import static android.text.InputType.TYPE_TEXT_VARIATION_URI;
 import static android.view.KeyEvent.ACTION_DOWN;
@@ -17,6 +16,8 @@ import android.text.style.StyleSpan;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat; // <-- ajouté
 
 import com.trianguloy.urlchecker.R;
 import com.trianguloy.urlchecker.activities.ModulesActivity;
@@ -69,8 +70,20 @@ class TextInputDialog extends AModuleDialog {
     public void onInitialize(View views) {
         txt_url = views.findViewById(R.id.url);
 
+        // --- Rendre l'URL visuellement secondaire (gris + légère transparence)
+        try {
+            int c = ContextCompat.getColor(getActivity(), R.color.urlSecondary);
+            txt_url.setTextColor(c);
+        } catch (Exception ignore) {
+            txt_url.setTextColor(0xFF666666); // fallback
+        }
+        txt_url.setAlpha(0.85f); // atténuation douce
+
         // Show fullscreen editor with the cursor in the clicked position when clicked
-        AndroidUtils.setOnClickWithPositionListener(txt_url, cursor -> showEditor(txt_url.getOffsetForPosition(cursor.first, cursor.second)));
+        AndroidUtils.setOnClickWithPositionListener(
+                txt_url,
+                cursor -> showEditor(txt_url.getOffsetForPosition(cursor.first, cursor.second))
+        );
 
         // Show fullscreen editor with everything selected when long clicked
         txt_url.setOnLongClickListener(v -> {
@@ -95,7 +108,8 @@ class TextInputDialog extends AModuleDialog {
         editText.requestFocus();
 
         // init dialog
-        DialogInterface.OnClickListener accept = (d, w) -> setUrl(new UrlData(editText.getText().toString()).disableUpdates());
+        DialogInterface.OnClickListener accept = (d, w) ->
+                setUrl(new UrlData(editText.getText().toString()).disableUpdates());
         var dialog = new AlertDialog.Builder(getActivity())
                 .setView(editText)
                 .setPositiveButton(android.R.string.ok, accept)
@@ -104,7 +118,8 @@ class TextInputDialog extends AModuleDialog {
                 .create();
 
         // resize with keyboard
-        if (dialog.getWindow() != null) dialog.getWindow().setSoftInputMode(SOFT_INPUT_STATE_VISIBLE | SOFT_INPUT_ADJUST_RESIZE);
+        if (dialog.getWindow() != null)
+            dialog.getWindow().setSoftInputMode(SOFT_INPUT_STATE_VISIBLE | SOFT_INPUT_ADJUST_RESIZE);
 
         // accept on done/enter
         editText.setOnEditorActionListener((v, actionId, event) -> {
@@ -128,32 +143,17 @@ class TextInputDialog extends AModuleDialog {
     private CharSequence getSpannableUriText(String rawUri) {
         var str = new SpannableStringBuilder(rawUri);
 
-        // bold host
+        // (on NE met plus l'hôte en gras pour ne pas voler l'attention
+        //  au domaine affiché en grand dans l'entête)
+
+        // italic query+fragment (discret)
         try {
-            var start = rawUri.indexOf("://");
-            if (start != -1) {
-                start += 3;
-                var end = rawUri.indexOf("/", start);
-                if (end == -1) end = rawUri.length();
-
-                var userinfo = rawUri.indexOf("@", start);
-                if (userinfo != -1 && userinfo < end) start = userinfo + 1;
-
-                var port = rawUri.lastIndexOf(":", end);
-                if (port != -1 && port > start) end = port;
-
-                str.setSpan(new StyleSpan(BOLD), start, end, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
-            }
-        } catch (Exception e) {
-            AndroidUtils.assertError("Unable to set host as bold", e);
-        }
-
-        // italic query+fragment
-        try {
-            var start = rawUri.indexOf("?");
+            int start = rawUri.indexOf("?");
             if (start == -1) start = rawUri.indexOf("#");
-            if (start != -1)
-                str.setSpan(new StyleSpan(ITALIC), start, rawUri.length(), Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
+            if (start != -1) {
+                str.setSpan(new StyleSpan(ITALIC), start, rawUri.length(),
+                        Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
+            }
         } catch (Exception e) {
             AndroidUtils.assertError("Unable to set query+fragment as italic", e);
         }

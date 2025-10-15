@@ -17,23 +17,38 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- Titre centré -->
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URLCheck"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Domaine mis en évidence -->
         <TextView
             android:id="@+id/urlHost"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="22sp"
+            android:textSize="26sp"
             android:padding="8dp"
             android:maxLines="1"
             android:ellipsize="end"
             android:textColor="@android:color/black"
-            tools:text="verify-login.com" />
+            tools:text="security-check.xyz" />
 
-        <!-- petite ligne séparatrice (optionnel) -->
+        <!-- fine séparation -->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#22000000" />
+
 
         <requestFocus
             android:layout_width="match_parent"

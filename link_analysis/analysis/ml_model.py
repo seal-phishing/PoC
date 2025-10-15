@@ -131,9 +131,9 @@ def predict_url(url: str, clf, feature_order: list[str]) -> tuple[str, float]:
 
     # Prédiction
     proba = clf.predict_proba(df)[0][1]
-    if proba >= 0.8:
+    if proba >= 0.6:
         return "phishing", proba
-    elif proba >= 0.6:
+    elif proba >= 0.3:
         return "suspect", proba
     else:
         return "legitimate", proba

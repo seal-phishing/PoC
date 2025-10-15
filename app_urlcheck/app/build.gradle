@@ -71,6 +71,7 @@ play {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.core:core:1.13.1"
 }
 
 // configure signing for release

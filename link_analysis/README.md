@@ -28,7 +28,7 @@ Il fournit une **API REST (FastAPI)** permettant de classifier des liens comme *
   pip install -r requirements.txt
 ````
 
-3. **Création du fichier `.env`** dans `link_analysis/` (ou à la racine du projet) :
+3. **Création du fichier `.env`** à la racine du projet :
 
 Copiez le modèle fourni :
 

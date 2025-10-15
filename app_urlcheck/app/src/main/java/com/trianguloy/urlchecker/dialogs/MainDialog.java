@@ -94,7 +94,21 @@ public class MainDialog extends Activity {
         if (host == null || host.isEmpty()) host = full; // fallback
         try { host = IDN.toUnicode(host); } catch (Exception ignore) { /* punycode safe */ }
 
-        if (headerUrl != null) headerUrl.setText(host);
+        // n’afficher que le domaine “registrable” (eTLD+1)
+        String registrable = getRegistrableDomain(host);
+        if (headerUrl != null) headerUrl.setText(registrable);
+    }
+
+    /** Renvoie eTLD+1 (ex: example.com, example.co.uk).
+     *  NB: implémentation légère avec quelques suffixes multi-part courants. */
+    private String getRegistrableDomain(String host) {
+        if (host == null) return "";
+
+        String[] labels = host.toLowerCase().split("\\.");
+        if (labels.length <= 2) return host;
+
+        // Toujours prendre les deux derniers labels (le vrai TLD visible)
+        return labels[labels.length - 2] + "." + labels[labels.length - 1];
     }
 
 
