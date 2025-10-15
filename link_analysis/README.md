@@ -33,7 +33,7 @@ Il fournit une **API REST (FastAPI)** permettant de classifier des liens comme *
 Copiez le modèle fourni :
 
 ```bash
-  cp link_analysis/.env.example link_analysis/.env
+  cp env.example .env
 ```
 
 Puis éditez le fichier `.env` pour y renseigner vos clés :
