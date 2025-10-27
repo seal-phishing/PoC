@@ -1,0 +1,48 @@
+======================================================================
+[RÉSUMÉ GLOBAL]
+
+DB Phishing 10
+  - URLhaus 0
+  - OFCS 10
+  - GSB 0
+
+Machine learning 935
+  - Risque élevé 0
+  - Risque modéré 0
+  - Risque faible 935
+
+Erreurs / timeouts : 55
+
+----------------------------------------------------------------------
+Accord DB ↔ ML (sur les URLs détectées par au moins une DB) :
+
+- ML 'élevé'   : 0
+- ML 'modéré'  : 0
+- ML 'faible'  : 10
+
+----------------------------------------------------------------------
+URLs classées Phishing (DB) :
+
+- https://bit.ly
+    sources: OFCS                 | score ML: 0.00
+- https://forms.gle
+    sources: OFCS                 | score ML: 0.01
+- https://shopify.com
+    sources: OFCS                 | score ML: 0.02
+- https://t.co
+    sources: OFCS                 | score ML: 0.05
+- https://linktr.ee
+    sources: OFCS                 | score ML: 0.01
+- https://tinyurl.com
+    sources: OFCS                 | score ML: 0.03
+- https://google.de
+    sources: OFCS                 | score ML: 0.01
+- https://google.co.uk
+    sources: OFCS                 | score ML: 0.00
+- https://substack.com
+    sources: OFCS                 | score ML: 0.02
+- https://mailchi.mp
+    sources: OFCS                 | score ML: 0.02
+----------------------------------------------------------------------
+
+======================================================================

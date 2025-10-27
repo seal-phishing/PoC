@@ -1,0 +1,1080 @@
+=== Lancement des tests de détection de phishing (CSV) ===
+
+[INFO] 3643 URL(s) chargée(s) depuis '/home/pablosaez/seal/PoC/link_analysis/database/pcv_phishing.csv'.
+
+[3643/3643] Envoi…
+
+======================================================================
+[RÉSUMÉ GLOBAL]
+
+DB Phishing 556
+  - URLhaus 0
+  - OFCS 373
+  - GSB 183
+
+Machine learning 3051
+  - Risque élevé 3048
+  - Risque modéré 1
+  - Risque faible 2
+
+Erreurs / timeouts : 72
+
+----------------------------------------------------------------------
+Accord DB ↔ ML (sur les URLs détectées par au moins une DB) :
+
+- ML 'élevé'   : 519
+- ML 'modéré'  : 0
+- ML 'faible'  : 1
+
+----------------------------------------------------------------------
+Combinaisons de DB (URLs trouvées par plusieurs bases) :
+
+- GSB, OFCS                      : 36
+
+----------------------------------------------------------------------
+URLs classées Phishing (DB) :
+
+- 2w8q7s1t.forms.app
+    sources: OFCS                 | score ML: 0.94
+- 849328793.icu
+    sources: GSB                  | score ML: 0.93
+- abschluss-verkauf.ch
+    sources: OFCS                 | score ML: 0.94
+- access-sitzung.info
+    sources: OFCS                 | score ML: 0.96
+- acces-suiv.fr
+    sources: OFCS                 | score ML: 0.91
+- acnr-solutions.com
+    sources: GSB                  | score ML: 0.95
+- ag-bote.com
+    sources: GSB                  | score ML: 0.91
+- ag-brief.com
+    sources: GSB                  | score ML: 0.91
+- agdpd.com
+    sources: OFCS                 | score ML: 0.92
+- agratestinglab.com
+    sources: GSB                  | score ML: 0.97
+- agratestinglab.com/f9xeZ2r
+    sources: GSB                  | score ML: 0.97
+- ag-zustell.org
+    sources: GSB                  | score ML: 0.91
+- anibis.checking-order.info
+    sources: OFCS                 | score ML: 0.95
+- anibis.link66820.site
+    sources: OFCS                 | score ML: 0.95
+- anibis.orderinfo458.live
+    sources: GSB                  | score ML: 0.95
+- anibis.orderinfo458.live/safedeal
+    sources: GSB                  | score ML: 0.95
+- anibis.page252114.shop
+    sources: GSB                  | score ML: 0.95
+- anibis.page252114.shop/get199932138
+    sources: GSB                  | score ML: 0.95
+- anibis.page28727.shop
+    sources: GSB                  | score ML: 0.95
+- anibis.page28727.shop/187559159
+    sources: GSB                  | score ML: 0.94
+- anibis.page42357.cfd
+    sources: GSB                  | score ML: 0.94
+- anibis.page42357.cfd/get/188642958
+    sources: GSB                  | score ML: 0.95
+- anibis.page708108.shop
+    sources: GSB                  | score ML: 0.95
+- anibis.pay-sells.org
+    sources: OFCS                 | score ML: 0.93
+- anibis.safety-pays.org
+    sources: OFCS                 | score ML: 0.92
+- anibis.sell-product.info
+    sources: OFCS                 | score ML: 0.92
+- anibis.skrilpay.online
+    sources: OFCS                 | score ML: 0.95
+- anibis.stripe.in.net
+    sources: OFCS                 | score ML: 0.96
+- anibis.tripartiee.online
+    sources: GSB                  | score ML: 0.94
+- anibis.trypart.online
+    sources: OFCS                 | score ML: 0.93
+- anibis.try-party.online
+    sources: OFCS                 | score ML: 0.92
+- anibis-ch.id728827.com
+    sources: OFCS,GSB             | score ML: 0.93
+- anibis-ch.id728827.com/getpayment/208693921
+    sources: GSB                  | score ML: 0.93
+- anibis-fr.id-8499.com
+    sources: OFCS                 | score ML: 0.96
+- anibis-fr.seccuresid-wallets.com
+    sources: OFCS                 | score ML: 0.93
+- anibis-fr.secures-wallets.com
+    sources: OFCS                 | score ML: 0.94
+- anibisfr.transportation989.shop
+    sources: OFCS                 | score ML: 0.95
+- anibis-fr.tripartie-safe.info
+    sources: OFCS                 | score ML: 0.94
+- a-post-id08818.rest
+    sources: GSB                  | score ML: 0.96
+- a-post-id7549935.top
+    sources: OFCS,GSB             | score ML: 0.96
+- a-post-id89927653.rest
+    sources: GSB                  | score ML: 0.94
+- app.getresponse.com
+    sources: OFCS                 | score ML: 0.96
+- app.laeka.io
+    sources: OFCS                 | score ML: 0.92
+- app.rasibintang.net.id
+    sources: OFCS                 | score ML: 0.96
+- appdirectparknow.com
+    sources: OFCS                 | score ML: 0.95
+- b24-ruiu1a.bitrix24.site
+    sources: OFCS                 | score ML: 0.93
+- babyshopvip.com
+    sources: OFCS                 | score ML: 0.96
+- bankers-swissfound.netlify.app
+    sources: OFCS                 | score ML: 0.94
+- bcfs.app
+    sources: OFCS                 | score ML: 0.92
+- bcv-inter.com
+    sources: OFCS                 | score ML: 0.91
+- bestcarpetcleaner.org
+    sources: OFCS                 | score ML: 0.94
+- bit.ly
+    sources: OFCS                 | score ML: 0.92
+- bluepostfum.top
+    sources: OFCS                 | score ML: 0.96
+- bluepostfuy.top
+    sources: OFCS                 | score ML: 0.96
+- bluepostlbp.com
+    sources: OFCS                 | score ML: 0.96
+- briefserv.com
+    sources: GSB                  | score ML: 0.92
+- ch.matchboxvirtualspaces.com
+    sources: OFCS                 | score ML: 0.95
+- ch.paybyphone.city
+    sources: OFCS                 | score ML: 0.96
+- chakullc.com
+    sources: OFCS                 | score ML: 0.92
+- ch-bote.com
+    sources: GSB                  | score ML: 0.91
+- ch-churierag.com
+    sources: GSB                  | score ML: 0.96
+- che.ch-pelc.top
+    sources: OFCS                 | score ML: 0.93
+- che.ch-pemi.top
+    sources: OFCS                 | score ML: 0.93
+- che-post.shop
+    sources: OFCS                 | score ML: 0.91
+- chepost.xyz
+    sources: OFCS                 | score ML: 0.92
+- chfkurier-ch.org
+    sources: GSB                  | score ML: 0.96
+- ch-getpaid.ch
+    sources: OFCS                 | score ML: 0.91
+- chlieferungag.com
+    sources: GSB                  | score ML: 0.96
+- chlivraison.com
+    sources: OFCS                 | score ML: 0.96
+- ch-payment-total.click
+    sources: GSB                  | score ML: 0.90
+- ch-post.apisecured.site
+    sources: OFCS                 | score ML: 0.93
+- ch-post.info-post.site
+    sources: OFCS                 | score ML: 0.91
+- ch-post.org.mx
+    sources: OFCS                 | score ML: 0.91
+- ch-postaefd.top
+    sources: OFCS                 | score ML: 0.93
+- chpostship.co
+    sources: OFCS                 | score ML: 0.92
+- ch-postxxt.top
+    sources: OFCS                 | score ML: 0.91
+- chronopostfrlivraison8.blogspot.com
+    sources: OFCS                 | score ML: 0.94
+- ch-service-order.com
+    sources: GSB                  | score ML: 0.92
+- ch-zustellen.com
+    sources: GSB                  | score ML: 0.96
+- cidadecondominos.pt
+    sources: OFCS                 | score ML: 0.96
+- client-ffs-sbbfid72.site
+    sources: GSB                  | score ML: 0.94
+- clozen.849328793.icu
+    sources: GSB                  | score ML: 0.94
+- compagnie-express-dhl.weebly.com
+    sources: OFCS                 | score ML: 0.92
+- contact-express-tracking.com
+    sources: OFCS                 | score ML: 0.92
+- craftcraze.shop
+    sources: OFCS                 | score ML: 0.96
+- delivery-paket.chasingaurora.com
+    sources: OFCS                 | score ML: 0.93
+- deliveryswiss.tech
+    sources: GSB                  | score ML: 0.97
+- delivery-ups.ch
+    sources: OFCS                 | score ML: 0.93
+- diepost.ch-express.space
+    sources: OFCS                 | score ML: 0.92
+- diepost.tpartie.online
+    sources: OFCS                 | score ML: 0.95
+- diepostl.com
+    sources: OFCS                 | score ML: 0.92
+- directphonesapps.com
+    sources: OFCS                 | score ML: 0.95
+- dolphy.in
+    sources: OFCS                 | score ML: 0.92
+- douaneservicedhl.com
+    sources: OFCS,GSB             | score ML: 0.95
+- dpd.com@trackingsr.cc
+    sources: GSB                  | score ML: 0.93
+- dpdcheh.com
+    sources: GSB                  | score ML: 0.92
+- dpd-dpd-group-enregistrement.weebly.com
+    sources: OFCS                 | score ML: 0.92
+- dpd-group-paiement-direct.weebly.com
+    sources: OFCS                 | score ML: 0.92
+- dpdhsv.cc/ch
+    sources: GSB                  | score ML: 0.92
+- dpdprg.homes
+    sources: OFCS                 | score ML: 0.92
+- dpdwichre.click
+    sources: OFCS,GSB             | score ML: 0.96
+- dpdwichre.click/ch
+    sources: GSB                  | score ML: 0.97
+- earnviaweb.com
+    sources: OFCS                 | score ML: 0.92
+- ebanking-ch1.ubsag.com.ubsagg.info
+    sources: OFCS                 | score ML: 0.93
+- ebonking-ch4-ubs.click
+    sources: GSB                  | score ML: 0.92
+- elblow.top
+    sources: GSB                  | score ML: 0.92
+- embargolimits.online
+    sources: OFCS                 | score ML: 0.95
+- esp.passar.io
+    sources: OFCS,GSB             | score ML: 0.92
+- express-redelivery.info.gf
+    sources: OFCS                 | score ML: 0.94
+- expresstrackpack.com
+    sources: OFCS                 | score ML: 0.95
+- express-worldtracking.com
+    sources: OFCS                 | score ML: 0.92
+- facebook.quality-page-bussiness-5312345879123139.ink
+    sources: GSB                  | score ML: 0.94
+- form.123formbuilder.com
+    sources: OFCS                 | score ML: 0.96
+- form.jotform.com
+    sources: OFCS                 | score ML: 0.94
+- frankhardo.it
+    sources: OFCS                 | score ML: 0.92
+- g-swiss.com
+    sources: GSB                  | score ML: 0.91
+- hindiboys.com
+    sources: OFCS                 | score ML: 0.92
+- http://ricardo.recivepro.com
+    sources: OFCS                 | score ML: 1.00
+- https://jango.softr.app/4558s
+    sources: OFCS                 | score ML: 0.20
+- icosmeticclub.com
+    sources: OFCS                 | score ML: 0.96
+- id-3985.com
+    sources: GSB                  | score ML: 0.93
+- id728827.com
+    sources: GSB                  | score ML: 0.93
+- id919268.click
+    sources: GSB                  | score ML: 0.93
+- info.expressle.top
+    sources: OFCS                 | score ML: 0.96
+- info17127.cfd
+    sources: GSB                  | score ML: 0.93
+- inta.gob.ni
+    sources: OFCS                 | score ML: 0.92
+- international-tracking.com
+    sources: OFCS,GSB             | score ML: 0.93
+- is.gd
+    sources: OFCS                 | score ML: 0.92
+- janitoresa.sviluppo.host
+    sources: OFCS                 | score ML: 0.94
+- labsed.com.br
+    sources: OFCS                 | score ML: 0.92
+- la-poste-n487.world
+    sources: GSB                  | score ML: 0.94
+- liefer-chfag.com
+    sources: OFCS                 | score ML: 0.96
+- links.truthsocial.com
+    sources: OFCS                 | score ML: 0.93
+- littlehaygolf.co.uk
+    sources: OFCS                 | score ML: 0.96
+- login-swisscard-hilfe.com
+    sources: OFCS,GSB             | score ML: 0.91
+- Logistique-expedition.ch
+    sources: OFCS                 | score ML: 0.92
+- maj-info-ub.com
+    sources: GSB                  | score ML: 0.92
+- maj-info-ub.com/suisse/inv
+    sources: GSB                  | score ML: 0.92
+- mandrillapp.com
+    sources: OFCS                 | score ML: 0.96
+- meinepaketverfolgen.com
+    sources: OFCS                 | score ML: 0.96
+- meine-sendungsverfolgung.com
+    sources: OFCS                 | score ML: 0.93
+- meinglobalespaket.com
+    sources: OFCS                 | score ML: 0.94
+- meinsendungpaket.com
+    sources: OFCS                 | score ML: 0.95
+- mondial-relais.ch
+    sources: OFCS                 | score ML: 0.96
+- money--guard.ch
+    sources: GSB                  | score ML: 0.92
+- my.forms.app
+    sources: OFCS                 | score ML: 0.92
+- mydpd.chsm.help
+    sources: OFCS                 | score ML: 0.94
+- mydpd.swissbk.cfd
+    sources: OFCS                 | score ML: 0.94
+- myelectronics.club
+    sources: OFCS                 | score ML: 0.97
+- net.fix-ch.com
+    sources: OFCS                 | score ML: 0.91
+- one.devicemng.eu
+    sources: OFCS                 | score ML: 0.94
+- ongcoppa.com
+    sources: OFCS                 | score ML: 0.92
+- o-pay.online
+    sources: OFCS                 | score ML: 0.91
+- order-258765.rest
+    sources: OFCS                 | score ML: 0.97
+- order-swiss24.click
+    sources: GSB                  | score ML: 0.94
+- page38469.cfd
+    sources: GSB                  | score ML: 0.93
+- page45694.cfd
+    sources: GSB                  | score ML: 0.93
+- page69925.cfd
+    sources: GSB                  | score ML: 0.93
+- page754121.cfd
+    sources: GSB                  | score ML: 0.93
+- page840376.com
+    sources: OFCS,GSB             | score ML: 0.93
+- page86931.shop
+    sources: GSB                  | score ML: 0.93
+- page9659665.cfd
+    sources: GSB                  | score ML: 0.94
+- paketbotech.org
+    sources: GSB                  | score ML: 0.96
+- pakete-schweiz.pro
+    sources: GSB                  | score ML: 0.95
+- paket-lieferung-swiss.com
+    sources: OFCS                 | score ML: 0.91
+- paketschweizlieferungzhe.com
+    sources: OFCS                 | score ML: 0.97
+- parcel-posta.com
+    sources: OFCS                 | score ML: 0.96
+- parkingge.com
+    sources: OFCS                 | score ML: 0.92
+- parkingphone.live
+    sources: OFCS                 | score ML: 0.96
+- parkings-ch.com
+    sources: OFCS                 | score ML: 0.93
+- parkingsge.com
+    sources: OFCS                 | score ML: 0.92
+- parkings-ge.com
+    sources: OFCS,GSB             | score ML: 0.93
+- parkings-geneve.com
+    sources: OFCS                 | score ML: 0.96
+- parkingsqr.com
+    sources: OFCS                 | score ML: 0.92
+- parkingsvd.com
+    sources: OFCS                 | score ML: 0.92
+- parkings-vd.com
+    sources: OFCS                 | score ML: 0.93
+- parkpay.sbs
+    sources: OFCS                 | score ML: 0.92
+- payment-platform.live
+    sources: GSB                  | score ML: 0.92
+- payments.get-pst.com
+    sources: OFCS                 | score ML: 0.93
+- pay-security-page.cfd
+    sources: GSB                  | score ML: 0.90
+- petitesannonces.ship-delivery.me
+    sources: OFCS                 | score ML: 0.94
+- playimpressao.com.br
+    sources: OFCS                 | score ML: 0.95
+- posst-swiss.com
+    sources: OFCS                 | score ML: 0.93
+- post.24-secure.com
+    sources: OFCS                 | score ML: 0.93
+- post.ch@a-post-id7549935.top
+    sources: GSB                  | score ML: 0.96
+- post.ch@a-post-id7549935.top/gat/196410018
+    sources: GSB                  | score ML: 0.93
+- post.ch@twintgetpayid865496.top
+    sources: GSB                  | score ML: 0.95
+- post.ch@twintgetpayid865496.top/get/253171404
+    sources: GSB                  | score ML: 0.95
+- post.ch-banktwint.com
+    sources: OFCS                 | score ML: 0.92
+- post.chde.help
+    sources: OFCS                 | score ML: 0.92
+- post.ch-infodd.top
+    sources: OFCS                 | score ML: 0.94
+- post.ch-infofi.top
+    sources: OFCS                 | score ML: 0.94
+- post.ch-infotw.top
+    sources: OFCS                 | score ML: 0.94
+- post.chsafep.com
+    sources: OFCS                 | score ML: 0.94
+- post.ch-service-order.com
+    sources: OFCS,GSB             | score ML: 0.92
+- post.ch-sofort24.com
+    sources: OFCS,GSB             | score ML: 0.93
+- post.ch-zustellen.com
+    sources: GSB                  | score ML: 0.92
+- post.ch-zustellen.com/de/receive/979800
+    sources: GSB                  | score ML: 0.94
+- post.deliv.pw
+    sources: OFCS                 | score ML: 0.92
+- post.delivering521.top
+    sources: OFCS                 | score ML: 0.96
+- post.delivs.pw
+    sources: OFCS                 | score ML: 0.92
+- post.errpaack.xyz
+    sources: OFCS                 | score ML: 0.94
+- post.errpack.xyz
+    sources: OFCS                 | score ML: 0.94
+- post.find813.info
+    sources: OFCS                 | score ML: 0.93
+- post.getsmore.site
+    sources: OFCS                 | score ML: 0.96
+- post.g-swiss.com
+    sources: GSB                  | score ML: 0.94
+- post.load-w.online
+    sources: OFCS                 | score ML: 0.94
+- post.page-info.live
+    sources: OFCS                 | score ML: 0.94
+- post.payment-u.cyou
+    sources: OFCS                 | score ML: 0.94
+- post.sbix89.icu
+    sources: OFCS                 | score ML: 0.95
+- post.secure-validation.com
+    sources: OFCS                 | score ML: 0.95
+- post.shipment948.space
+    sources: OFCS                 | score ML: 0.96
+- post.spmailtechn.com
+    sources: OFCS                 | score ML: 0.95
+- post.spmailtechno.com
+    sources: OFCS                 | score ML: 0.93
+- post.spmailtechnol.com
+    sources: OFCS                 | score ML: 0.95
+- post.swisbankers.com
+    sources: OFCS                 | score ML: 0.95
+- post.swiss-anmeldung.com
+    sources: OFCS                 | score ML: 0.92
+- post.swos.help
+    sources: OFCS                 | score ML: 0.92
+- post.t-recipient.online
+    sources: OFCS                 | score ML: 0.92
+- post.trustway.com.de
+    sources: OFCS                 | score ML: 0.96
+- post.tryparty.online
+    sources: OFCS                 | score ML: 0.95
+- post.twintevc.com
+    sources: OFCS                 | score ML: 0.94
+- posta-ch.reservation48554.cloud
+    sources: OFCS                 | score ML: 0.93
+- posta-ch.reservation60649.cloud
+    sources: OFCS                 | score ML: 0.93
+- posta-ch.reservation64329.cloud
+    sources: OFCS                 | score ML: 0.93
+- postcei.top
+    sources: OFCS                 | score ML: 0.92
+- post-ch.bill-3dpay.site
+    sources: OFCS                 | score ML: 0.92
+- post-ch.courier-delivery.pro
+    sources: OFCS                 | score ML: 0.94
+- post-ch.courier-postpac.org
+    sources: OFCS                 | score ML: 0.94
+- post-ch.courier-postpac.space
+    sources: OFCS                 | score ML: 0.94
+- post-ch.courier-support.fun
+    sources: OFCS                 | score ML: 0.94
+- post-ch.delivery-couriers.com
+    sources: OFCS                 | score ML: 0.94
+- post-ch.delivery-payments.org
+    sources: OFCS                 | score ML: 0.94
+- post-ch.delivery-support.fun
+    sources: OFCS                 | score ML: 0.94
+- post-ch.deliveryswiss.tech
+    sources: GSB                  | score ML: 0.94
+- post-ch.deliveryswiss.tech/206601487
+    sources: GSB                  | score ML: 0.94
+- post-ch.express-ch.life
+    sources: OFCS                 | score ML: 0.91
+- post-ch.express-pakete.com
+    sources: OFCS                 | score ML: 0.94
+- post-ch.finance
+    sources: GSB                  | score ML: 0.93
+- post-ch.formular4128.info
+    sources: OFCS                 | score ML: 0.94
+- post-ch.from-10.xyz
+    sources: OFCS                 | score ML: 0.94
+- post-ch.id919268.click
+    sources: OFCS,GSB             | score ML: 0.93
+- post-ch.id919268.click/getpayment/252467040/twint
+    sources: GSB                  | score ML: 0.93
+- postch.info
+    sources: OFCS,GSB             | score ML: 0.92
+- postch.info/get
+    sources: GSB                  | score ML: 0.96
+- post-ch.kourier-orders.com
+    sources: OFCS                 | score ML: 0.94
+- post-ch.kourier-postpac.org
+    sources: OFCS                 | score ML: 0.94
+- post-ch.kurier-express.pw
+    sources: OFCS                 | score ML: 0.92
+- post-ch.kurier-express24.pw
+    sources: OFCS                 | score ML: 0.96
+- post-ch.live-3ds.site
+    sources: OFCS                 | score ML: 0.93
+- post-ch.l-pay.shop
+    sources: OFCS                 | score ML: 0.94
+- post-ch.money
+    sources: OFCS                 | score ML: 0.91
+- postch.online
+    sources: OFCS                 | score ML: 0.92
+- post-ch.order-check.work
+    sources: OFCS                 | score ML: 0.91
+- post-ch.order-deliveries.com
+    sources: OFCS                 | score ML: 0.94
+- post-ch.order-delivery.site
+    sources: OFCS                 | score ML: 0.94
+- post-ch.order-delivery.website
+    sources: OFCS                 | score ML: 0.94
+- post-ch.orders-pay.com
+    sources: OFCS                 | score ML: 0.91
+- post-ch.pay-mobil.org
+    sources: OFCS                 | score ML: 0.91
+- post-ch.postpac-delivery.org
+    sources: OFCS                 | score ML: 0.94
+- post-ch.postpac-order.net
+    sources: OFCS                 | score ML: 0.92
+- post-ch.postpac-order.org
+    sources: OFCS                 | score ML: 0.92
+- post-ch.postsecured.com
+    sources: OFCS                 | score ML: 0.93
+- post-ch.receivepayment.xyz
+    sources: OFCS                 | score ML: 0.94
+- post-ch.reserv-tracking.site
+    sources: OFCS                 | score ML: 0.94
+- post-ch.sameday-courier.xyz
+    sources: OFCS                 | score ML: 0.94
+- post-ch.sameday-plus.xyz
+    sources: OFCS                 | score ML: 0.91
+- post-ch.sameday-tracking.xyz
+    sources: OFCS                 | score ML: 0.94
+- post-ch.schweiz.su
+    sources: OFCS                 | score ML: 0.95
+- post-ch.schweiz-express24.xyz
+    sources: OFCS                 | score ML: 0.96
+- post-ch.schweiz-kourier24.pro
+    sources: OFCS                 | score ML: 0.96
+- post-ch.schweiz-postpac.tech
+    sources: OFCS                 | score ML: 0.94
+- postch.sell-secures.org
+    sources: OFCS                 | score ML: 0.92
+- post-ch.service-ch.co
+    sources: OFCS                 | score ML: 0.91
+- post-ch.service-del.life
+    sources: OFCS                 | score ML: 0.91
+- post-ch.swiss-ch.pro
+    sources: OFCS                 | score ML: 0.92
+- post-ch.swiss-delivery.net
+    sources: OFCS                 | score ML: 0.94
+- post-ch.swiss-express.life
+    sources: OFCS                 | score ML: 0.94
+- post-ch.trackingorder.space
+    sources: OFCS                 | score ML: 0.94
+- post-ch.trackingsite.fun
+    sources: OFCS                 | score ML: 0.93
+- post-ch-12.com
+    sources: OFCS                 | score ML: 0.92
+- postch-money.space
+    sources: OFCS                 | score ML: 0.95
+- post-ch-pay.com
+    sources: OFCS                 | score ML: 0.92
+- postch-payment.com
+    sources: OFCS                 | score ML: 0.95
+- postch-payment.site
+    sources: OFCS                 | score ML: 0.96
+- postch-shipping.shop
+    sources: OFCS                 | score ML: 0.94
+- postch-travel.site
+    sources: OFCS                 | score ML: 0.95
+- postch-twint24.space
+    sources: OFCS                 | score ML: 0.94
+- postcjy.top
+    sources: OFCS                 | score ML: 0.92
+- post-die.ag-fahrer.com
+    sources: GSB                  | score ML: 0.91
+- post-die.ag-fahrer.com/de/receive/233843
+    sources: GSB                  | score ML: 0.94
+- post-die.ag-paket.org
+    sources: OFCS,GSB             | score ML: 0.91
+- post-die.ag-paket.org/de/receive/933750
+    sources: GSB                  | score ML: 0.94
+- post-die.ag-pakt24.com/de/receive/399850
+    sources: GSB                  | score ML: 0.95
+- post-die.ag-send24.com
+    sources: GSB                  | score ML: 0.92
+- post-die.ag-zustellbote.com
+    sources: OFCS                 | score ML: 0.94
+- post-die.brief-ag.org
+    sources: OFCS                 | score ML: 0.91
+- post-die.briefserv.com
+    sources: OFCS,GSB             | score ML: 0.93
+- post-die.chbrief.org
+    sources: OFCS,GSB             | score ML: 0.94
+- post-die.ch-bring.com
+    sources: GSB                  | score ML: 0.91
+- post-die.ch-deliv.com
+    sources: OFCS,GSB             | score ML: 0.91
+- post-die.ch-deliv.com/de/receive/723948
+    sources: GSB                  | score ML: 0.94
+- post-die.chliefer.org
+    sources: OFCS                 | score ML: 0.93
+- post-die.chpaket.com
+    sources: OFCS                 | score ML: 0.94
+- post-die.ch-paketdienst.com
+    sources: OFCS                 | score ML: 0.94
+- post-die.chprofi.com
+    sources: OFCS,GSB             | score ML: 0.94
+- post-die.chprofi.com/de/receive/507588
+    sources: GSB                  | score ML: 0.94
+- post-die.chzustell.com
+    sources: OFCS,GSB             | score ML: 0.93
+- post-die.chzustell.com/de/receive/128735
+    sources: GSB                  | score ML: 0.95
+- postdie.com
+    sources: OFCS                 | score ML: 0.92
+- post-die.formular246853.click
+    sources: OFCS                 | score ML: 0.95
+- post-die.formular873574.click
+    sources: OFCS                 | score ML: 0.95
+- post-die.liefer-chfag.com
+    sources: OFCS                 | score ML: 0.92
+- post-die.paket-ag.com
+    sources: OFCS,GSB             | score ML: 0.91
+- post-die.postkurierch.com
+    sources: OFCS,GSB             | score ML: 0.94
+- post-die.postkurierch.com/de/receive/849512?type=2
+    sources: GSB                  | score ML: 0.95
+- post-die.verteilen-ch.com
+    sources: OFCS,GSB             | score ML: 0.92
+- poste-boxe.com
+    sources: OFCS                 | score ML: 0.91
+- postfincasase.000webhostapp.com
+    sources: OFCS                 | score ML: 0.95
+- postfr.transport931.shop
+    sources: OFCS                 | score ML: 0.95
+- post-geld.com
+    sources: GSB                  | score ML: 0.91
+- post-geld.com/get/212235431
+    sources: GSB                  | score ML: 0.96
+- postid-us.top
+    sources: OFCS                 | score ML: 0.91
+- post-info.ch
+    sources: OFCS                 | score ML: 0.91
+- postinvoicedelivery.com
+    sources: OFCS                 | score ML: 0.96
+- post-kontakt.com
+    sources: OFCS                 | score ML: 0.96
+- post-konto.com
+    sources: OFCS,GSB             | score ML: 0.91
+- post-konto.com/get/228316008
+    sources: GSB                  | score ML: 0.95
+- post-konto.com/get/251007493
+    sources: GSB                  | score ML: 0.95
+- postll.cfd
+    sources: OFCS                 | score ML: 0.92
+- post-pakete.com
+    sources: OFCS                 | score ML: 0.93
+- post-parcel.com
+    sources: OFCS,GSB             | score ML: 0.93
+- post-parcel.com/get/223444419
+    sources: GSB                  | score ML: 0.96
+- post-payments.space
+    sources: OFCS                 | score ML: 0.96
+- post-receipt.com
+    sources: OFCS                 | score ML: 0.96
+- postsch.com
+    sources: OFCS                 | score ML: 0.92
+- post-transfer.online
+    sources: OFCS                 | score ML: 0.94
+- post-transfer.space
+    sources: OFCS                 | score ML: 0.96
+- post-transportik.space
+    sources: OFCS                 | score ML: 0.92
+- ppost.cc
+    sources: OFCS                 | score ML: 0.92
+- qr.tapnscan.me
+    sources: OFCS                 | score ML: 0.92
+- qrco.de
+    sources: OFCS                 | score ML: 0.92
+- qr-park.su
+    sources: OFCS                 | score ML: 0.91
+- qrz.nu
+    sources: OFCS                 | score ML: 0.92
+- quittung.cfd
+    sources: GSB                  | score ML: 0.92
+- redirectingtoappnow.com
+    sources: OFCS                 | score ML: 0.96
+- renesting-projectinc.com
+    sources: OFCS                 | score ML: 0.92
+- renouvellement-info-compte.com
+    sources: OFCS                 | score ML: 0.92
+- ricardo.chfanmeldung.com
+    sources: OFCS                 | score ML: 0.94
+- ricardo.ch-ge.com
+    sources: OFCS                 | score ML: 0.94
+- ricardo.ch-geld-moneyguard.click
+    sources: GSB                  | score ML: 0.93
+- ricardo.ch-geldtransfer.com
+    sources: OFCS                 | score ML: 0.95
+- ricardo.ch-ss.com
+    sources: OFCS                 | score ML: 0.94
+- ricardo.klinkup.shop
+    sources: GSB                  | score ML: 0.95
+- ricardo.klinkup.shop/222663755
+    sources: GSB                  | score ML: 0.96
+- ricardo.money--guard.ch
+    sources: GSB                  | score ML: 0.91
+- ricardo.money--guard.ch/get/175324467
+    sources: GSB                  | score ML: 0.95
+- ricardo.money--guard.ch/get/250769859
+    sources: GSB                  | score ML: 0.95
+- ricardo.moneyguard.icu
+    sources: GSB                  | score ML: 0.95
+- ricardo.moneyguard.icu/96328926
+    sources: GSB                  | score ML: 0.95
+- ricardo.moneyguard-payment.com
+    sources: OFCS                 | score ML: 0.95
+- ricardo.money-guard-payment.com
+    sources: OFCS                 | score ML: 0.93
+- ricardo.money-guard-payment.info
+    sources: OFCS                 | score ML: 0.93
+- ricardo.offer9381.bid
+    sources: OFCS                 | score ML: 0.95
+- ricardo.page38469.cfd
+    sources: GSB                  | score ML: 0.95
+- ricardo.page45694.cfd
+    sources: GSB                  | score ML: 0.95
+- ricardo.page45694.cfd/get/205416422
+    sources: GSB                  | score ML: 0.95
+- ricardo.page989786.cfd
+    sources: OFCS                 | score ML: 0.95
+- ricardo.pstments.com
+    sources: OFCS                 | score ML: 0.95
+- ricardo.total08482.cfd
+    sources: OFCS                 | score ML: 0.95
+- ricardo.total34651.cfd
+    sources: GSB                  | score ML: 0.95
+- ricardo.total34651.cfd/get/207400589
+    sources: GSB                  | score ML: 0.95
+- ricardo.total53221.cfd
+    sources: OFCS                 | score ML: 0.95
+- ricardo.verrefy.com
+    sources: OFCS                 | score ML: 0.96
+- ricardo.webpage37234.cfd
+    sources: GSB                  | score ML: 0.95
+- ricardo.webpage37234.cfd/226763203
+    sources: GSB                  | score ML: 0.95
+- ricardo-deliverv.einlass-chf.com
+    sources: GSB                  | score ML: 0.93
+- ricardo-deliverv.einlass-chf.com/de/receive/2967855
+    sources: GSB                  | score ML: 0.93
+- ricardo-moneyguard.com
+    sources: OFCS                 | score ML: 0.92
+- ricardo--moneyguard.com
+    sources: OFCS                 | score ML: 0.90
+- rtgbm3xn.forms.app
+    sources: OFCS                 | score ML: 0.96
+- s://brands-shop.gr/654321321132/step1.php
+    sources: OFCS                 | score ML: 1.00
+- sbbcffcenter.com
+    sources: OFCS                 | score ML: 0.97
+- schnell-ag.com
+    sources: GSB                  | score ML: 0.91
+- schweiz-versand.com
+    sources: OFCS                 | score ML: 0.96
+- securitytwint.accountportal.xyz
+    sources: OFCS                 | score ML: 0.94
+- secusbb.netlify.app
+    sources: OFCS                 | score ML: 0.96
+- sendch.com
+    sources: OFCS,GSB             | score ML: 0.92
+- serversmtpgaze.com
+    sources: OFCS                 | score ML: 0.97
+- service.update.68-221-121-153.cprapid.com
+    sources: OFCS                 | score ML: 0.91
+- service-dhlcustom.com
+    sources: OFCS                 | score ML: 0.92
+- service-dpd-group.weebly.com
+    sources: OFCS                 | score ML: 0.93
+- service-dpd-group-paiement7.weebly.com
+    sources: OFCS                 | score ML: 0.93
+- service-laposte-client.com
+    sources: OFCS                 | score ML: 0.92
+- shop.vajro.in
+    sources: OFCS                 | score ML: 0.92
+- shorturl.at
+    sources: OFCS                 | score ML: 0.92
+- shrtlink.net
+    sources: OFCS                 | score ML: 0.92
+- siwsspass.sh-tdf.de
+    sources: OFCS                 | score ML: 0.94
+- sixgroup-hilfe.com
+    sources: OFCS                 | score ML: 0.95
+- skittlebags.com
+    sources: OFCS                 | score ML: 0.96
+- smex-ctp.trendmicro.com
+    sources: OFCS                 | score ML: 0.93
+- snstu-cson.com
+    sources: OFCS                 | score ML: 0.91
+- sporty-you.club
+    sources: OFCS                 | score ML: 0.93
+- s-post-id01929.sbs
+    sources: GSB                  | score ML: 0.96
+- Swissclientcff.nl
+    sources: OFCS                 | score ML: 0.96
+- swiss-delivery.net
+    sources: OFCS                 | score ML: 0.95
+- swissexpress.del-express.life
+    sources: OFCS                 | score ML: 0.95
+- swissexpress.delivery-expr.life
+    sources: OFCS                 | score ML: 0.94
+- swisspost.a-post-id08818.rest
+    sources: GSB                  | score ML: 0.95
+- swisspost.a-post-id08818.rest/get/231243750
+    sources: GSB                  | score ML: 0.95
+- swisspost.a-post-id89927653.rest
+    sources: GSB                  | score ML: 0.95
+- swisspost.app
+    sources: OFCS                 | score ML: 0.92
+- swisspost.app-payment.cfd/get/185278310
+    sources: GSB                  | score ML: 0.95
+- swisspost.confirmations-page.shop/get/254636753
+    sources: GSB                  | score ML: 0.95
+- swisspost.delivery-security.info
+    sources: OFCS                 | score ML: 0.94
+- swisspost.info17127.cfd
+    sources: GSB                  | score ML: 0.95
+- swisspost.info17127.cfd/get/260034804
+    sources: GSB                  | score ML: 0.95
+- swisspost.info82911.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.la-poste-n487.world
+    sources: OFCS,GSB             | score ML: 0.96
+- swisspost.la-poste-n487.world/get/252766150
+    sources: GSB                  | score ML: 0.95
+- swisspost.list571124.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.moneyguard-pay.com
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page021287.shop
+    sources: OFCS                 | score ML: 0.96
+- swisspost.page049740.cfd
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.page0598430.cfd
+    sources: OFCS                 | score ML: 0.96
+- swisspost.page07245.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page27732.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page37853.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page56372.cfd/get/188749790
+    sources: GSB                  | score ML: 0.95
+- swisspost.page56781.cfd
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.page57292.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page713557.shop
+    sources: GSB                  | score ML: 0.96
+- swisspost.page713557.shop/get/19247360
+9
+    sources: GSB                  | score ML: 0.95
+- swisspost.page754121.cfd
+    sources: GSB                  | score ML: 0.95
+- swisspost.page789554.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page90965965.com
+    sources: OFCS                 | score ML: 0.96
+- swisspost.page93799.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page95863.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.page9659665.cfd
+    sources: OFCS,GSB             | score ML: 0.96
+- swisspost.pay-security-page.cfd
+    sources: GSB                  | score ML: 0.93
+- swisspost.pay-security-page.cfd/get/195270024
+    sources: GSB                  | score ML: 0.95
+- swisspost.quittung.cfd
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.s-post-id01929.sbs
+    sources: OFCS,GSB             | score ML: 0.96
+- swisspost.s-post-id01929.sbs/get/261664865
+    sources: GSB                  | score ML: 0.95
+- swisspost.swiss-ch.shop
+    sources: OFCS                 | score ML: 0.92
+- swisspost.total11831.cfd
+    sources: OFCS                 | score ML: 0.95
+- swisspost.total31512.cfd
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.total56224.cfd
+    sources: GSB                  | score ML: 0.95
+- swisspost.total89113.cfd
+    sources: GSB                  | score ML: 0.95
+- swisspost.total89113.cfd/get/248877650
+    sources: GSB                  | score ML: 0.95
+- swisspost.total92842.cfd
+    sources: GSB                  | score ML: 0.95
+- swisspost.total92842.cfd/get/257321342
+    sources: GSB                  | score ML: 0.95
+- swisspost.total98782.cfd
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.webpage37234.cfd
+    sources: GSB                  | score ML: 0.96
+- swiss-post.world
+    sources: OFCS,GSB             | score ML: 0.96
+- swisspost.zahlungssystem.io
+    sources: OFCS,GSB             | score ML: 0.95
+- swisspost.zahlungssystem.io/222604028
+    sources: GSB                  | score ML: 0.95
+- swisspost.zahlungssystem.io/get/225347065
+    sources: GSB                  | score ML: 0.95
+- swiss-post-service.com
+    sources: OFCS                 | score ML: 0.90
+- switzerland-order.com
+    sources: OFCS                 | score ML: 0.92
+- t.ly
+    sources: OFCS                 | score ML: 0.92
+- total235256.icu
+    sources: GSB                  | score ML: 0.95
+- total31512.cfd
+    sources: GSB                  | score ML: 0.93
+- total56224.cfd
+    sources: GSB                  | score ML: 0.93
+- total74822.cfd
+    sources: GSB                  | score ML: 0.93
+- total78291.cfd
+    sources: OFCS                 | score ML: 0.93
+- total89113.cfd
+    sources: GSB                  | score ML: 0.93
+- total92842.cfd
+    sources: GSB                  | score ML: 0.93
+- total98782.cfd
+    sources: GSB                  | score ML: 0.93
+- totalid932774.com
+    sources: GSB                  | score ML: 0.94
+- track.pstmrk.it
+    sources: OFCS                 | score ML: 0.94
+- track-delivery-package.ch
+    sources: OFCS                 | score ML: 0.91
+- trackiing-online.net
+    sources: OFCS                 | score ML: 0.94
+- track-pakets.webfucs.com
+    sources: OFCS                 | score ML: 0.93
+- track-trace-dp.icu
+    sources: OFCS                 | score ML: 0.93
+- tracktrace-dpd.ru
+    sources: OFCS                 | score ML: 0.96
+- trackworldpackage.com
+    sources: OFCS                 | score ML: 0.94
+- transporteur-express.ch
+    sources: OFCS                 | score ML: 0.92
+- tripartiee.online
+    sources: GSB                  | score ML: 0.96
+- truffautgrand.com
+    sources: GSB                  | score ML: 0.96
+- turbokurier.pakete-schweiz.pro
+    sources: GSB                  | score ML: 0.95
+- tutti.ch-moneyguard.click
+    sources: GSB                  | score ML: 0.93
+- tutti.ch-receive-payment.cc
+    sources: OFCS                 | score ML: 0.94
+- tutti.total018.com
+    sources: OFCS                 | score ML: 0.94
+- twint.ch-payment.com
+    sources: OFCS                 | score ML: 0.93
+- twint.ch-verification.com
+    sources: OFCS                 | score ML: 0.93
+- twint.datench.com
+    sources: OFCS                 | score ML: 0.94
+- twint.page82936.shop
+    sources: OFCS                 | score ML: 0.94
+- twint.quickdataupdate.online
+    sources: OFCS                 | score ML: 0.95
+- twint24.com
+    sources: OFCS                 | score ML: 0.94
+- twint-app.total31512.cfd
+    sources: GSB                  | score ML: 0.93
+- twint-app.total31512.cfd/get/190003761
+    sources: GSB                  | score ML: 0.94
+- twint-fr.id-43313.com
+    sources: OFCS                 | score ML: 0.96
+- twintgetpayid865496.top
+    sources: OFCS,GSB             | score ML: 0.96
+- twint-info.soorti.com
+    sources: OFCS                 | score ML: 0.93
+- twintpay-ch.com
+    sources: OFCS                 | score ML: 0.93
+- twint-pay-ch.com
+    sources: OFCS                 | score ML: 0.93
+- twint-quittung.space
+    sources: OFCS                 | score ML: 0.94
+- ubs-i.cfd
+    sources: OFCS                 | score ML: 0.91
+- ubs-n.cfd
+    sources: OFCS                 | score ML: 0.91
+- upsloggin-ch.com
+    sources: OFCS                 | score ML: 0.96
+- ups-postage.com
+    sources: OFCS                 | score ML: 0.93
+- ups-reception.com
+    sources: OFCS                 | score ML: 0.96
+- upsscap.com
+    sources: OFCS                 | score ML: 0.92
+- upsschweiz.com
+    sources: OFCS                 | score ML: 0.92
+- ups-service-schweiz.com
+    sources: OFCS                 | score ML: 0.90
+- upstraceking.ng
+    sources: OFCS                 | score ML: 0.96
+- verfahren-portal.info
+    sources: OFCS                 | score ML: 0.92
+- verifizierungsprozespost.is-a-nurse.com
+    sources: OFCS                 | score ML: 0.93
+- verify-in-etsy.com
+    sources: OFCS                 | score ML: 0.93
+- vermoeqenszentrum.com
+    sources: GSB                  | score ML: 0.94
+- virement-payp-secure-versement.000webhostapp.com
+    sources: OFCS                 | score ML: 0.93
+- watchagainow.com
+    sources: OFCS                 | score ML: 0.97
+- webpage37234.cfd
+    sources: GSB                  | score ML: 0.96
+- www-diepost24.com
+    sources: OFCS                 | score ML: 0.95
+- yallo6g.ch
+    sources: OFCS                 | score ML: 0.92
+- y-i.top
+    sources: OFCS                 | score ML: 0.91
+- zahlungseingang.net
+    sources: GSB                  | score ML: 0.96
+- zahlungssystem.io
+    sources: GSB                  | score ML: 0.96
+- zollpakket.com
+    sources: GSB                  | score ML: 0.92
+----------------------------------------------------------------------
+
+======================================================================
